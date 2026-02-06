@@ -9,8 +9,8 @@ export default function Header() {
 
     useEffect(() => {
         Aos.init({
-            duration: 1000, 
-            once: true,      
+            duration: 1000,
+            once: true,
             easing: "ease-out-cubic",
         });
     }, []);
@@ -20,7 +20,7 @@ export default function Header() {
             <div className="Container">
                 <div className="w-full h-screen flex items-center justify-center text-white">
                     <div className="flex items-center justify-between gap-[150px]">
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center gap-6">
                             <Typography variant="h1" className="zilla-slab-semibold"
                                 data-aos="fade-up"
                                 data-aos-delay="0"
@@ -31,12 +31,21 @@ export default function Header() {
                                 data-aos="fade-up"
                                 data-aos-delay="150"
                             >I am a frontend developer</p>
-                            <Button className=" px-7 py-3 zilla-slab-semibold rounded-xl bg-gradient-to-r from-[#d69699] to-[#9965a6] text-white font-semibold  hover:opacity-90 transition hover:text-[#2d2b2b]"
+                            <Button
+                                className="px-7 py-3 text-[16px] zilla-slab-semibold rounded-xl 
+    bg-gradient-to-r from-[#d69699] to-[#9965a6] text-white font-semibold  
+    hover:opacity-90 transition hover:text-[#2d2b2b]"
                                 data-aos="fade-up"
                                 data-aos-delay="300"
+                                onClick={() => {
+                                    document.getElementById("projects")?.scrollIntoView({
+                                        behavior: "smooth"
+                                    });
+                                }}
                             >
                                 My creations
                             </Button>
+
                         </div>
 
                         <div className=" w-96 p-6 rounded-3xl bg-gradient-to-br from-[#DB8084] to-[#23314A] shadow-2xl" data-aos="fade-up"

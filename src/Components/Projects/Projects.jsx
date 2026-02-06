@@ -2,7 +2,9 @@ import { Card, CardBody, Typography } from "@material-tailwind/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import PayApi from "../Img/photo_2026-01-31_14-32-52.jpg"
+import PayApi from "../Img/photo_2026-02-06_21-35-36.jpg"
+import Porten from "../Img/photo_2026-02-06_21-19-12.jpg"
+import Print from "../Img/photo_2026-02-06_21-30-51.jpg"
 
 export default function Projects() {
     useEffect(() => {
@@ -14,7 +16,9 @@ export default function Projects() {
     }, []);
 
     return (
-        <div className="bg-gradient-to-bl from-[#23314A]  to-[#DB8084] pb-[150px]">
+        <div 
+         id="projects"
+        className="bg-gradient-to-bl from-[#23314A]  to-[#DB8084] pb-[150px]">
             <div className="Container">
                 <div className="w-full pt-[90px]">
                     <div className="flex flex-col items-center justify-center gap-6 mb-[60px]">
@@ -53,16 +57,16 @@ export default function Projects() {
                             </CardBody>
                         </Card>
 
-                        <Card className="bg-white/10 w-[380px] backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+                        <Card className="bg-white/10 w-[380px]  backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                             <CardBody className="flex flex-col items-center text-center gap-4">
-                                <img src={PayApi} alt="payapi img" className="w-[300px]" />
+                                <img src={Porten} alt="porten img" className="w-[300px]" />
 
                                 <h3 className="text-xl font-semibold text-white">
-                                    Start building PayApi
+                                    Porten
                                 </h3>
 
                                 <a
-                                    href="https://feruzadev.github.io/payapi-multi-page-website/"
+                                    href="https://qwertfefreerfergergerg.netlify.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm text-[white] hover:text-[#23314A] underline transition"
@@ -73,14 +77,14 @@ export default function Projects() {
                         </Card>
                         <Card className="bg-white/10 w-[380px] backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                             <CardBody className="flex flex-col items-center text-center gap-4">
-                                <img src={PayApi} alt="payapi img" className="w-[300px]" />
+                                <img src={Print} alt="print img" className="w-[300px]" />
 
                                 <h3 className="text-xl font-semibold text-white">
-                                    Start building PayApi
+                                    Make the printing
                                 </h3>
 
                                 <a
-                                    href="https://feruzadev.github.io/payapi-multi-page-website/"
+                                    href="https://test1jsjsjsjsjsjsbbs.netlify.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm text-[white] hover:text-[#23314A] underline transition"
