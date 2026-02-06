@@ -18,7 +18,7 @@ export default function Skills() {
     }, []);
 
     return (
-        <div className="bg-gradient-to-br from-[#DB8084] to-[#23314A] pb-[150px]">
+        <div className="skills-section  bg-gradient-to-br from-[#DB8084] to-[#23314A] pb-[150px]">
             <div className="Container">
                 <div className="w-full pt-[80px] ">
                     <div className="flex flex-col items-center justify-center gap-6  mb-[60px]">
@@ -34,7 +34,7 @@ export default function Skills() {
                         ></div>
                     </div>
 
-                    <div className="flex flex-wrap items-center justify-center gap-8 mt-8">
+                    <div className="skills-list flex flex-wrap items-center justify-center gap-8 mt-8">
                         <Button
                             data-aos="fade-right"
                             data-aos-delay="0"

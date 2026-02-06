@@ -16,7 +16,7 @@ export default function Contact() {
     }, []);
 
     return (
-        <div className="bg-gradient-to-br  from-[#DB8084]  to-[#23314A] pb-[150px]">
+        <div className="contact-section bg-gradient-to-br  from-[#DB8084]  to-[#23314A] pb-[150px]">
             <div className="Container">
                 <div className="w-full pt-[80px]">
                     <div className="flex flex-col items-center justify-center gap-6 mb-[60px]">
@@ -31,7 +31,7 @@ export default function Contact() {
                         data-aos-delay="150"
                         ></div>
                     </div>
-                    <div className="flex flex-wrap items-center justify-center gap-16 mt-8">
+                    <div className=" contact-list flex flex-wrap items-center justify-center gap-16 mt-8">
                         <Button
                             data-aos="fade-right"
                             data-aos-delay="0"

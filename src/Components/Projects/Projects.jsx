@@ -18,7 +18,7 @@ export default function Projects() {
     return (
         <div 
          id="projects"
-        className="bg-gradient-to-bl from-[#23314A]  to-[#DB8084] pb-[150px]">
+        className=" projects-section bg-gradient-to-bl from-[#23314A]  to-[#DB8084] pb-[150px]">
             <div className="Container">
                 <div className="w-full pt-[90px]">
                     <div className="flex flex-col items-center justify-center gap-6 mb-[60px]">
@@ -34,11 +34,11 @@ export default function Projects() {
                         ></div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center"
+                    <div className=" projects-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center"
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >
-                        <Card className="bg-white/10 w-[380px] backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+                        <Card className=" project-card bg-white/10 w-[380px] backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                             <CardBody className="flex flex-col items-center text-center gap-4">
                                 <img src={PayApi} alt="payapi img" className="w-[300px]" />
 
@@ -57,7 +57,7 @@ export default function Projects() {
                             </CardBody>
                         </Card>
 
-                        <Card className="bg-white/10 w-[380px]  backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+                        <Card className=" project-card bg-white/10 w-[380px]  backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                             <CardBody className="flex flex-col items-center text-center gap-4">
                                 <img src={Porten} alt="porten img" className="w-[300px]" />
 
@@ -75,7 +75,7 @@ export default function Projects() {
                                 </a>
                             </CardBody>
                         </Card>
-                        <Card className="bg-white/10 w-[380px] backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+                        <Card className=" project-card bg-white/10 w-[380px] backdrop-blur-md rounded-2xl shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                             <CardBody className="flex flex-col items-center text-center gap-4">
                                 <img src={Print} alt="print img" className="w-[300px]" />
 
